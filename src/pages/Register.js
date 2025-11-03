@@ -90,7 +90,7 @@ const Register = () => {
               <input
                 type="text"
                 name="username"
-                autoComplete="username" // Otomatik tamamlama eklendi
+                autoComplete="username" 
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-t-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Kullanıcı adı"
@@ -102,7 +102,7 @@ const Register = () => {
               <input
                 type="email"
                 name="email"
-                autoComplete="email" // Otomatik tamamlama eklendi
+                autoComplete="email" 
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="E-posta adresi"
@@ -113,8 +113,8 @@ const Register = () => {
             <div>
               <input
                 type="password"
-                name="new-password" // name eklendi
-                autoComplete="new-password" // Otomatik tamamlama eklendi
+                name="password" // <-- BURASI DÜZELTİLDİ
+                autoComplete="new-password" 
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Şifre (en az 6 karakter)"
@@ -125,8 +125,8 @@ const Register = () => {
             <div>
               <input
                 type="password"
-                name="confirmPassword"
-                autoComplete="new-password" // Otomatik tamamlama eklendi
+                name="confirmPassword" // Bu zaten doğruydu
+                autoComplete="new-password" 
                 required
                 className="appearance-none rounded-none relative block w-full px-3 py-2 border border-gray-300 placeholder-gray-500 text-gray-900 rounded-b-md focus:outline-none focus:ring-blue-500 focus:border-blue-500 focus:z-10 sm:text-sm"
                 placeholder="Şifre tekrar"
