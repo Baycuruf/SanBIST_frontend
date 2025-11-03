@@ -3,7 +3,7 @@ import { useState, useEffect, useCallback, useRef } from 'react';
 import axios from 'axios';
 // import { useApp } from '../App'; // BU SATIRI SİL VEYA YORUM YAP
 
-const API_BASE_URL = 'https://sanbistbackend.ddns.net/api'; // Port 5000 olarak güncellendi
+const API_BASE_URL = 'https://sanbist-backend.onrender.com/api'; // Port 5000 olarak güncellendi
 
 // Hook artık setter fonksiyonlarını props olarak alıyor
 export const useMarketData = (
